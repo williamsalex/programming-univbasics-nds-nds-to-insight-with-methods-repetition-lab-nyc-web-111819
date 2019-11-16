@@ -30,8 +30,12 @@ end
 
 def total_gross(source)
   directorsNames = []
-  for x in source do
-    directorsNamesx[:name]
+  for entry in source do
+    directorsNames << entry[:name]
+  end
+  for name in directorsNames do
+    
+  end
   # Write this implementation
   #
   # Should use methods:
