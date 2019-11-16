@@ -29,6 +29,7 @@ def list_of_directors(source)
   for entry in source do
     directorsNames << entry[:name]
   end
+  directorsNames
 end
 
 def total_gross(source)
